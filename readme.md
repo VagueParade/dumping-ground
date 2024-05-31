@@ -15,3 +15,9 @@ lv_font_conv --bpp 4 --size 20 --font "
 
 
 4. Hit enter, and you'll find it in your User folder on PC/Mac.
+
+
+
+You can also use this command line to delete all DS Store files before zipping your files.
+
+find . -name ".DS_Store" -delete
